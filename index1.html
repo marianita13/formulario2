@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="imagen/png" sizes="32*32" href="./images/thelastofus.jpeg">
+</head>
+<body>
+    <h1>TITLE</h1>
+    <p>A form made by important and expert people</p>
+    <form action="#" method="get">
+        <label for="nombre">Name</label><br>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre" autofocus required>
+        <br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="Ingresa tu email" autofocus required>
+        <br>
+        <label for="edad">Age</label>
+        <label id="opcional" for="opcional">(optional)</label><br>
+        <input type="number" id="edad" placeholder="Escribe tu edad"><br>
+        <div class="fff">
+        <label for="role">Which option best describes you current role</label><br>
+        <select id="opcion" required>
+            <option value="">Select current rule</option>
+            <option value="S">Sociable</option>
+            <option value="C">Creative</option>
+        </select><br>
+        </div>
+        <div class="fff">
+            <label for="recommend">Would you recommend freeCodeCamp to a friend?</label><br>
+            <input type="radio" name="decision" class="uno" id="definitely" required>
+            <label for="definitely" class="uno" class="uno">Definitely</label><br>
+            <input type="radio" name="decision" class="dos" id="maybe" required>
+            <label for="maybe" class="dos">Maybe</label><br>
+            <input type="radio" name="decision" class="tres" id="not" required>
+            <label for="not" class="tres">Not sure</label><br>
+        </div>
+        <div class="fff">
+        <label for="favorite">What is your favorite feature of freeCodeCamp</label><br>
+        <select id="feature" required>
+            <option value="">Select an option</option>
+            <option value="R">Responsable</option>
+            <option value="B">Big</option>
+        </select><br>
+        </div>
+            <label for="improved">What would you like to see improved?</label>
+            <label id="check" for="apply">(Check all that apply)</label><br>
+        <div class="fff">
+            <input type="checkbox" id="uno">
+            <label for="uno" id="uno">Front-end Projects</label><br>
+            <input type="checkbox" id="dos">
+            <label for="dos" id="dos">Back-end Projects</label><br>
+            <input type="checkbox" id="tres">
+            <label for="tres" id="tres">Data Visualization</label><br>
+            <input type="checkbox" id="cuatro">
+            <label for="cuatro" id="cuatro">Challenges</label><br>
+            <input type="checkbox" id="cinco"> 
+            <label for="cinco" id="cinco">Open Source Community</label><br>
+            <input type="checkbox" id="seis">
+            <label for="seis" id="seis">Gitter help rooms</label><br>
+            <input type="checkbox" id="siete">
+            <label for="siete" id="siete">Videos</label><br>
+            <input type="checkbox" id="ocho">
+            <label for="ocho" id="ocho">City meetups</label><br>
+            <input type="checkbox" id="nueve">
+            <label for="nueve" id="nueve">Wiki</label><br>
+            <input type="checkbox" id="diez">
+            <label for="diez" id="diez">Forum</label><br>
+            <input type="checkbox" id="once">
+            <label for="once" id="once">Additional Courses</label><br>
+        </div>
+        <div class="fff">
+            <label for="suggestions">Any comments or suggestions?</label><br>
+            <textarea name="texto" id="hola" cols="30" rows="10" placeholder="Enter your comment here..."></textarea><br>
+        </div>
+        <button type="submit" class="boton">Submit</button>
+
+    </form>
+</body>
+</html>
